@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  
+#grid-container {
+}
+
+.grid-column {
+  display: inline-block;
+  border: 1px solid black;
+  min-height: 20px;
+  min-width: 20px;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+.fill{
+  background: black;
+}
+
+button{
+  padding: 10px;
+  margin: 10px;
+}
